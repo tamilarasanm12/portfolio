@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="sample.js"></script>
+</head>
+<body>
+  <header>
+    <h1>M.TAMIL ARASAN</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+<p>Hello! I'm Tamilarasan, a web developer passionate about building user-friendly websites.
+</p>
+<p>Now,iam studying java-fullstack and love to explore java</p>
+</section>
+
+  <section id="education">
+
+  <div class="edu-box">
+    <h2>Bachelor of bsc - Computer Science</h2>
+    <p><strong>College:</strong> periyar maniammai institute of science,thanjavur,Tamilnadu</p>
+    <p><strong>Year:</strong> 2020 - 2023</p>
+    <p><strong>CGPA:</strong> 7.10</p>
+  </div>
+
+  <div class="edu-box">
+    <h2>Higher Secondary School</h2>
+    <p><strong>School:</strong>shri venkateshwara matric higher school</p>
+    <p><strong>Year:</strong> 2019 - 2020</p>
+    <p><strong>Percentage:</strong> 55.07%</p>
+  </div>
+  <div class="edu-box">
+    <h2>Secondary School</h2>
+    <p><strong>School:</strong> shri venkateshwara matric higher school</p>
+    <p><strong>Year:</strong> 2017 - 2018</p>
+    <p><strong>Percentage:</strong> 70.6%</p>
+  </div>
+
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-msg"></p>
+  </section>
+
+  <footer>
+    <p>&copy;this is all about me</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
